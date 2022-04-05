@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+p, h5{
+    font-family: 'Lora', serif;
+}
+.text {
+    font-family: 'Roboto', sans-serif;
+}
+.titleimg{
+    width: 100%;
+    margin-top: 100px;
+}
+.carousel-caption{
+    font-size: 30pt;
+}
+#titleCat{
+    font-weight: 400;
+    font-size: large;
+    
+}
+
+.introductionTxt{
+    text-align: center;
+}
+
+/*.catCard{
+    width: 20rem;
+}*/
+
+a.nav-link{
+    color:white;
+}
+.navbar-brand{
+    position: absolute;
+    left: 50%;
+    top: -60%;
+    margin-left: -150px !important;  /* 50% of your logo width */
+    display: block;
+}
+@media (min-width: 200px){
+    .navbar-brand{
+        top: -30%;
+    } 
+}
+@media ( min-width: 720px ) {
+    .navbar-brand{
+        top:-30%;
+    }
+}
+@media ( min-width: 900px ) {
+    .navbar-brand{
+        top:-60%;
+    }
+}
+
+.cart:hover{
+    background-color: rgb(224, 170, 20);
+}
+a.nav-link:hover{
+    color: rgb(224, 170, 20);
+}
